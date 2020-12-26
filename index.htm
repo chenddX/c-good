@@ -1,0 +1,214 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+个人基本信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 申报日期：
+<script type="text/javascript" language="javascript">
+function shijian(){
+var myDate = new Date();
+var mytime=myDate.toLocaleDateString(); //获取当前时du间
+document.getElementById("av").innerHTML=mytime;
+}
+setInterval('shijian()',1000);
+</script>
+<body >
+<div id="av" style="width:500px;gainsboro;white-space: nowrap"></div>
+</body>
+<table border="1" width="100%">
+	<tr>
+		<td>*填报人姓名</td>
+		<td><input type="text" id="1">　</td>
+		<td>*性别</td>
+		<td colspan="2">　
+		<body>
+	<select id="100">
+	<option value="0">-请选择-</option>
+	<option value="1">男</option>
+	<option value="2">女</option>
+	</select>
+	</body>
+		</td>
+	</tr>
+	<tr>
+		<td>*工作证号</td>
+		<td><input type="text" id="2">　</td>
+		<td>*身份证号</td>
+		<td colspan="2"><input type="text" id="3">　</td>
+	</tr>
+	<tr>
+		<td>*人员类别</td>
+		<td>　
+		<body>
+	<select id="101">
+	<option value="0">-请选择-</option>
+	<option value="1">编制内人员</option>
+	<option value="2">编制外人员</option>
+	</select>
+	</body>
+		</td>
+		<td>*人员分类</td>
+		<td colspan="2">　
+		<body>
+	<select id="102">
+	<option value="0">-请选择-</option>
+	<option value="1">教师</option>
+	<option value="2">学生</option>
+	</select>
+	</body>
+		</td>
+	</tr>
+	<tr>
+		<td>*籍&nbsp; 贯</td>
+		<td>
+		<input type="text" id="4">
+		　</td>
+		<td>*联系方式</td>
+		<td colspan="2">
+		<input type="text" id="5">
+		　</td>
+	</tr>
+	<tr>
+		<td>*年&nbsp; 龄</td>
+		<td><input type="text" id="6">　</td>
+		<td>*单位负责人</td>
+		<td colspan="2"><input type="text" id="7">　</td>
+	</tr>
+	<tr>
+		<td>*所在处级单位</td>
+		<td><input type="text" id="8">　</td>
+		<td>*部处室/院系党委</td>
+		<td>计算机科学与技术学院党委</td>
+		<td>计算机科学与技术学院</td>
+	</tr>
+	<tr>
+		<td>*现居住地址</td>
+		<td><input type="text" id="9"></td>
+	</tr>
+	<tr>
+		<td rowspan="2">*目前位置</td>
+		<td>
+		<input type="radio" name="boolean7" id="103">国内
+		<input type="radio" name="boolean7" id="104">国外
+		</td>
+		
+	</tr>
+	<tr>
+		<td><input type="text" id="10"></td>
+		
+	</tr>
+	<tr>
+		<td>*身体状况</td>
+		<td>
+		<input type="radio" name="boolean6" id="105">健康
+		<input type="radio" name="boolean6" id="106">不适（非新冠状病毒）
+		<input type="radio" name="boolean6" id="107">居家医学观察
+		<input type="radio" name="boolean6" id="108">指定点医院观察
+		<input type="radio" name="boolean6" id="109">医疗机构隔离治疗
+		<input type="radio" name="boolean6" id="110">疑似
+		<input type="radio" name="boolean6" id="111">确诊（疑似和确诊必须为官方医院鉴定）
+		</td>
+	</tr>
+	<tr>
+		<td>*当日是否在学校家属区居住</td>
+		<td>
+		<input type="radio" name="boolean5" id="112">是
+		<input type="radio" name="boolean5" id="113">否　
+		</td>
+	</tr>
+	<tr>
+		<td>*具体居住住址</td>
+		<td><input type="text" id="11">　</td>
+		
+	</tr>
+	<tr>
+		<td>*当日是否因病缺勤</td>
+		<td>
+		<input type="radio" name="boolean4" id="114">是
+		<input type="radio" name="boolean4" id="115">否　
+		</td>
+	</tr>
+	<tr>
+		<td>*当日是否因工作需要来校办公</td>
+		<td>
+		<input type="radio" name="boolean3" id="116">是
+		<input type="radio" name="boolean3" id="117">否　
+		</td>
+	</tr>
+	<tr>
+		<td>*当日来校工作地点</td>
+		<td>
+		<body>
+	<select id="118">
+	<option value="0">-请选择-</option>
+	<option value="1">中心校区</option>
+	<option value="2">和平校区</option>
+	<option value="3">南湖校区</option>
+	<option value="4">南岭校区</option>
+	</select>
+	</body>　
+		</td>
+		<td>*楼/房间号</td>
+		<td><input type="text" id="12"></td>
+	</tr>
+	<tr>
+		<td>*明日是否计划来校工作</td>
+		<td>
+		<input type="radio" name="boolean2" id="119">是
+		<input type="radio" name="boolean2" id="120">否　
+		</td>
+	</tr>
+	<tr>
+		<td>*明日计划来校工作地点</td>
+		<td>
+		<body>
+	<select id="121">
+	<option value="0">-请选择-</option>
+	<option value="1">中心校区</option>
+	<option value="2">和平校区</option>
+	<option value="3">南湖校区</option>
+	<option value="4">南岭校区</option>
+	</select>
+	</body>
+		</td>
+		<td>*楼/房间号</td>
+		<td><input type="text" id="13"></td>
+	</tr>
+	<tr>
+		<td>*现工作地所在县级区</td>
+		<td>
+		<body>
+	<select id="122">
+	<option value="0">-请选择-</option>
+	<option value="1">高新区</option>
+	<option value="2">非高新区</option>
+	</select>
+	</body>
+　
+		</td>
+		<td>　</td>
+	</tr>
+	<tr>
+		<td>*近期是否接触过疫情高发区或疑似病患人员</td>
+		<td>
+		<input type="radio" name="boolean1" id="123">是
+		<input type="radio" name="boolean1" id="124">否
+
+		  </td>
+	</tr>
+	<tr>
+		<td>*是否有核酸检测结果</td>
+		<td>
+		<input type="radio" name="boolean" id="125">是
+		<input type="radio" name="boolean" id="126">否
+		　</td>
+	</tr>
+</table>
+<input type="checkbox" id="127">本人承诺以上填写内容真实可靠<br>
+<input type="submit" id="btnSubmit" value="提交" />
+<input type="button" id="btnClose" value="关闭" />
+</body>
+
+</html>
